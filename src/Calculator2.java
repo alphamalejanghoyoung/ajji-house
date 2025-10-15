@@ -7,12 +7,12 @@ public class Calculator2 {
         int first = scanner.nextInt();
         System.out.println(first);
 
+        System.out.println("원하는 기호를 입력하세요 : ");
+        String symbol = scanner.next();
+
         System.out.println("두 번째 입력 값 : ");
         int second = scanner.nextInt();
         System.out.println(second);
-
-        System.out.println("원하는 기호를 입력하세요 : ");
-        String symbol = scanner.next();
 
         if ("+".equals(symbol)) {
             System.out.println("두 값의 덧셈 : " + (first + second));
